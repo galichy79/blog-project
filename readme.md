@@ -52,6 +52,24 @@ python manage.py migrate применяем обновление
  [create .gitignore](https://www.toptal.com/developers/gitignore/)
 
 
+Запускаем постгре 
+
+```sudo -i -u postgres```
+
+```psql```
+
+To exit
+
+``` \q```
+
+\du - посмотреть всех пользователей БД
+
+\password postrges - установить пароль для пользователя postgres
+
+CREATE DATABASE blogdb;
+
+```python3 manage.py createsuperuser``` - создаем суперюзера для админки.
+
 
 
 
