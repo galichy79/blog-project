@@ -1,4 +1,4 @@
-
+## Blog. Educational project
 
 
 
@@ -69,6 +69,10 @@ To exit
 CREATE DATABASE blogdb;
 
 ```python3 manage.py createsuperuser``` - создаем суперюзера для админки.
+
+python3 manage.py makemigrations
+
+python3 manage.py migrate
 
 
 
