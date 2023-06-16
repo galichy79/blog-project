@@ -49,6 +49,8 @@ python manage.py migrate применяем обновление
 
  \password postgres устанавливаем пароль юзера постгрес
 
+ [create .gitignore](https://www.toptal.com/developers/gitignore/)
+
 
 
 
