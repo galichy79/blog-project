@@ -6,13 +6,6 @@ python manage.py startapp blog создаем приложение blog
 
 python manage.py startapp events создаем приложение events
 
-
-При создании нового репозитория его название копируем из названия папки в проводнике виндовз
-
-or push an existing repository from the command line
-
-76 Models 
-
 Модель - это класс. Мы должны создать здесь класс.
 
 
@@ -37,10 +30,7 @@ python manage.py migrate применяем обновление
  python manage.py createsuperuser создаем суперюзера
  Имя пишем любое
 
- 78. Установка PostgreSQL. Windows
-
- [скачать postgreSQL](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
-
+  
  [как разрешить windows 10 скачивать файлы из неизвестных источников](https://www.youtube.com/watch?v=8mdWNF7jkDA)
 
  После установки постгрескл запустить SQL shell
@@ -74,9 +64,14 @@ python3 manage.py makemigrations
 
 python3 manage.py migrate
 
+responsive - адаптивный
 
+[Bootstrap 5 Tutorial](https://www.w3schools.com/bootstrap5/index.php)
 
-
+85. Bootstrap. Часть 2
+86. Bootstrap. Часть 3
+88. Задание 2. Решение
+89. Отображение объектов Event
 
 
 
