@@ -1,10 +1,15 @@
 ## Blog. Educational project
 
+Cоздаем приложение blog
 
+```python
+python3 manage.py startapp blog
+``` 
 
-python manage.py startapp blog создаем приложение blog
-
-python manage.py startapp events создаем приложение events
+Cоздаем приложение events
+```python 
+python3 manage.py startapp events
+``` 
 
 Модель - это класс. Мы должны создать здесь класс.
 
@@ -13,22 +18,34 @@ python manage.py startapp events создаем приложение events
 
 migrations - способ в джанго обновлять базу данных
 
-python manage.py migrate
+```python 
+python3 manage.py migrate
+```
 
 Прописываем в settings.py 'events.apps.EventsConfig'
 
-python manage.py makemigrations
+```python 
+python3 manage.py makemigrations
+```
 
-python -m pip install Pillow
+```python 
+python3 -m pip install Pillow
+```
 
-python manage.py migrate применяем обновление
+Применяем обновление
+```python 
+python manage.py migrate 
+```
 
 77. Admin
 
-Нужно создать admin аккаунт 
 
- python manage.py createsuperuser создаем суперюзера
- Имя пишем любое
+Cоздаем админа
+Имя пишем любое
+
+```python
+ python manage.py createsuperuser
+ ``` 
 
   
  [как разрешить windows 10 скачивать файлы из неизвестных источников](https://www.youtube.com/watch?v=8mdWNF7jkDA)
@@ -37,32 +54,56 @@ python manage.py migrate применяем обновление
 
  80. Подключаем PostgreSQL к проекту.
 
- \password postgres устанавливаем пароль юзера постгрес
+ Устанавливаем пароль юзера постгрес
+
+ ```bash
+ \password postgres
+ ``` 
 
  [create .gitignore](https://www.toptal.com/developers/gitignore/)
 
 
-Запускаем постгре 
+Запускаем постгрес 
 
-```sudo -i -u postgres```
+```bash
+sudo -i -u postgres
+```
 
-```psql```
+```bash
+psql
+```
 
 To exit
 
-``` \q```
+```bash
+ \q
+ ```
 
-\du - посмотреть всех пользователей БД
+Посмотреть всех пользователей БД
+```bash
+\du 
+```
 
-\password postrges - установить пароль для пользователя postgres
+Установить пароль для пользователя postgres
+```bash
+\password postrges 
+```
 
+```bash
 CREATE DATABASE blogdb;
+```
+Создаем суперюзера для админки:
+```bash
+python3 manage.py createsuperuser
+``` 
 
-```python3 manage.py createsuperuser``` - создаем суперюзера для админки.
-
+```python 
 python3 manage.py makemigrations
+```
 
+```pytho
 python3 manage.py migrate
+```
 
 responsive - адаптивный
 
