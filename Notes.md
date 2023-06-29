@@ -1,6 +1,5 @@
-## Blog. Educational project
+##### Создаем приложение блог
 
-Cоздаем приложение blog
 
 ```python
 python3 manage.py startapp blog
@@ -38,10 +37,6 @@ python manage.py migrate
 ```
 
 77. Admin
-
-
-Cоздаем админа
-Имя пишем любое
 
 ```python
  python manage.py createsuperuser
@@ -101,7 +96,7 @@ python3 manage.py createsuperuser
 python3 manage.py makemigrations
 ```
 
-```pytho
+```python
 python3 manage.py migrate
 ```
 
@@ -113,6 +108,7 @@ responsive - адаптивный
 86. Bootstrap. Часть 3
 88. Задание 2. Решение
 89. Отображение объектов Event
+91. Задание 3
 
 
 
