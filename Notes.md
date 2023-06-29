@@ -104,11 +104,17 @@ responsive - адаптивный
 
 [Bootstrap 5 Tutorial](https://www.w3schools.com/bootstrap5/index.php)
 
+##### Collect static
+```python
+python3 manage.py collectstatic
+```
+
 85. Bootstrap. Часть 2
 86. Bootstrap. Часть 3
 88. Задание 2. Решение
 89. Отображение объектов Event
-91. Задание 3
+93. Страница отдельного поста
+94. Статические файлы
 
 
 
